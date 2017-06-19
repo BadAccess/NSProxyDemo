@@ -15,6 +15,9 @@
 		6280DDD31EF7B69E003C303B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6280DDD11EF7B69E003C303B /* LaunchScreen.storyboard */; };
 		6280DDDE1EF7B69E003C303B /* NSProxyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6280DDDD1EF7B69E003C303B /* NSProxyDemoTests.m */; };
 		6280DDE91EF7B69E003C303B /* NSProxyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6280DDE81EF7B69E003C303B /* NSProxyDemoUITests.m */; };
+		6280DDFC1EF7B6B4003C303B /* OrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6280DDF71EF7B6B4003C303B /* OrderService.m */; };
+		6280DDFD1EF7B6B4003C303B /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6280DDF91EF7B6B4003C303B /* ProductService.m */; };
+		6280DDFE1EF7B6B4003C303B /* ServiceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6280DDFB1EF7B6B4003C303B /* ServiceProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		6280DDE41EF7B69E003C303B /* NSProxyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSProxyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6280DDE81EF7B69E003C303B /* NSProxyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSProxyDemoUITests.m; sourceTree = "<group>"; };
 		6280DDEA1EF7B69E003C303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6280DDF61EF7B6B4003C303B /* OrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderService.h; sourceTree = "<group>"; };
+		6280DDF71EF7B6B4003C303B /* OrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderService.m; sourceTree = "<group>"; };
+		6280DDF81EF7B6B4003C303B /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductService.h; sourceTree = "<group>"; };
+		6280DDF91EF7B6B4003C303B /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductService.m; sourceTree = "<group>"; };
+		6280DDFA1EF7B6B4003C303B /* ServiceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProxy.h; sourceTree = "<group>"; };
+		6280DDFB1EF7B6B4003C303B /* ServiceProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		6280DDC21EF7B69E003C303B /* NSProxyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6280DDF61EF7B6B4003C303B /* OrderService.h */,
+				6280DDF71EF7B6B4003C303B /* OrderService.m */,
+				6280DDF81EF7B6B4003C303B /* ProductService.h */,
+				6280DDF91EF7B6B4003C303B /* ProductService.m */,
+				6280DDFA1EF7B6B4003C303B /* ServiceProxy.h */,
+				6280DDFB1EF7B6B4003C303B /* ServiceProxy.m */,
 				6280DDC61EF7B69E003C303B /* AppDelegate.h */,
 				6280DDC71EF7B69E003C303B /* AppDelegate.m */,
 				6280DDC91EF7B69E003C303B /* ViewController.h */,
@@ -273,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6280DDFE1EF7B6B4003C303B /* ServiceProxy.m in Sources */,
 				6280DDCB1EF7B69E003C303B /* ViewController.m in Sources */,
+				6280DDFD1EF7B6B4003C303B /* ProductService.m in Sources */,
 				6280DDC81EF7B69E003C303B /* AppDelegate.m in Sources */,
+				6280DDFC1EF7B6B4003C303B /* OrderService.m in Sources */,
 				6280DDC51EF7B69E003C303B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

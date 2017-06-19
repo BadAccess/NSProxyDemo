@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ServiceProxy.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ServiceProxy *proxy = [ServiceProxy shareProxy];
+    [proxy getProductInfo:@"123456"];
+    [proxy submitOrder:@"程序员标配的横条纹T"];
 }
 
 
